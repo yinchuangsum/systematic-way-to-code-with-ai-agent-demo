@@ -1,0 +1,19 @@
+{
+  "name": "promo-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Teaching repo for 'Systematic Way to Code with AI Agent' - promo stacking engine",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:exercise": "vitest run --config vitest.exercise.config.ts",
+    "test:capstone": "vitest run --config vitest.capstone.config.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^5.0.5"
+  }
+}
